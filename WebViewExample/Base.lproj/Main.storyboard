@@ -22,14 +22,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HfE-Is-bxt">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="HfE-Is-bxt" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="DyJ-Ei-CCh"/>
                             <constraint firstAttribute="trailing" secondItem="HfE-Is-bxt" secondAttribute="trailing" id="Kh3-jE-bYH"/>
+                            <constraint firstItem="HfE-Is-bxt" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Wsy-Xu-0Nt"/>
                             <constraint firstItem="HfE-Is-bxt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="YmH-mf-oTj"/>
                             <constraint firstItem="HfE-Is-bxt" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="fps-LX-Tug"/>
                         </constraints>
